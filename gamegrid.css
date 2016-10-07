@@ -7,29 +7,37 @@ body
 
 h3
 {
-font-family: Permanent Marker;
+font-family: Verdana,Geneva,sans-serif;
 font-size: 35px;
+font-style: italic;
+font-weight: bold;
 color: #EDBB3E; 
 }
 
 p
 {
-font-family: Permanent Marker;
+font-family: Verdana,Geneva,sans-serif;
 color: white;
+font-style: italic;
+font-weight: bold;
 font-size: 25px;
 }
 
 h1
 {
-font-family: Permanent Marker;
+font-family: Verdana,Geneva,sans-serif;
 font-size: 70px;
+font-style: italic;
+font-weight: bold;
 color: #EDBB3E; 
 }
 
 h2
 {
-	font-family: Permanent Marker;
+	font-family: Verdana,Geneva,sans-serif;
 	font-size: 26px;
+	font-style: italic;
+font-weight: bold;
 	color: #EDBB3E; 
 } 
 
