@@ -1,0 +1,121 @@
+body
+{
+	text-align: center;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+h3
+{
+font-family: Permanent Marker;
+font-size: 35px;
+color: #EDBB3E; 
+}
+
+p
+{
+font-family: Permanent Marker;
+color: white;
+font-size: 25px;
+}
+
+h1
+{
+font-family: Permanent Marker;
+font-size: 70px;
+color: #EDBB3E; 
+}
+
+h2
+{
+	font-family: Permanent Marker;
+	font-size: 26px;
+	color: #EDBB3E; 
+} 
+
+table.grid
+{
+	background-color: #8B6914;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+td
+{
+	height: 60px;
+	width: 60px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 0px;
+}
+
+td.redcell
+{
+	background: -moz-linear-gradient(bottom right, #8B4513, #8B4513, #7F5E0C);
+}
+
+td.blackcell
+{
+	background: -moz-linear-gradient(bottom right, #FCBA41, #FCBA41, #FFD27F, #FCBA41);
+}
+
+#checker-red
+{
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	height: 50px;
+	width: 50px;
+	background: -moz-linear-gradient(bottom right, black, black, #5E5E5E, white);
+	box-shadow: 4px 4px 2px #373737;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-khtml-border-radius: 25px;
+	border-radius: 25px;
+	border: 2px solid;
+}
+
+#king-red
+{
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	height: 50px;
+	width: 50px;
+	background-color: #980000;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-khtml-border-radius: 25px;
+	border-radius: 25px;
+}
+
+#checker-white
+{
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	height: 50px;
+	width: 50px;
+	background: -moz-linear-gradient(top left, white , #9D7206, #654902);
+	box-shadow: 4px 4px 2px #373737;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-khtml-border-radius: 25px;
+	border-radius: 25px;
+	border: 2px solid #5C4306;
+}
+
+#king-white
+{
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	height: 50px;
+	width: 50px;
+	background-color: #FFFF66;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-khtml-border-radius: 25px;
+	border-radius: 25px;
+}

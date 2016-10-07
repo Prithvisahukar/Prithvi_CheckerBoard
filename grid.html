@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Checkers</title>
+		<script type='text/javascript' src='js/AnimateCSS.js'></script>
+		<script type='text/javascript' src='js/grid.js'></script>
+		<link rel='stylesheet' type='text/css' href='css/gamegrid.css' />
+		<link rel="stylesheet" type="text/css" href='https://fonts.googleapis.com/css?family=Permanent+Marker:400' />
+	</head>
+	<body onload='buildGrid()' background = "http://cdn.wallpapersafari.com/5/31/NZ9deY.jpg">
+		<br/><img src="Checkers.png" alt="Smiley face" align="middle" height = "150" width="650"> <br/> <br/> <br/> <br/>
+		<!--<br/><h2><div id='whiteplayer'>Player 1 : <input id='whitename'></input></h2><button type='button' onclick='setName("white")'>Submit</button><br/></div>
+		<h2><div id='redplayer'>Player 2 : <input id='blackname'></input></h2><button type='button' onclick='setName("black")'>Submit</button><br/><br/></div>-->
+		<div id='gamegrid'></div>
+		<div id='location'></div>
+		
+		<br/><br/><button type='button' onclick='redSurrender()'>Player 1 Surrender</button>
+		<button type='button' onclick='blackSurrender()'>Player 2 Surrender</button>
+		
+	</body>
+</html>
+
